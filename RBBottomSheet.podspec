@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/amsibsam/BottomSheet'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'amsibsam' => 'amsibsam@gmail.com' }
-  s.source           = { :git => 'https://github.com/amsibsam/BottomSheet.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/amsibsam/RBBottomSheet.git', :tag => s.version.to_s }
   s.swift_versions   = '5'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
