@@ -1,6 +1,6 @@
 //
-//  BottomSheet.h
-//  BottomSheet
+//  RBBottomSheet.h
+//  RBBottomSheet
 //
 //  Created by Rahardyan Bisma on 13/11/20.
 //  Copyright © 2020 amsibsam. All rights reserved.

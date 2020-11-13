@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		82674120255E211200DD8B1B /* BottomSheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82674116255E211200DD8B1B /* BottomSheet.framework */; };
+		82674120255E211200DD8B1B /* RBBottomSheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82674116255E211200DD8B1B /* RBBottomSheet.framework */; };
 		82674125255E211200DD8B1B /* BottomSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82674124255E211200DD8B1B /* BottomSheetTests.swift */; };
-		82674127255E211200DD8B1B /* BottomSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 82674119255E211200DD8B1B /* BottomSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82674127255E211200DD8B1B /* RBBottomSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 82674119255E211200DD8B1B /* RBBottomSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82674137255E212F00DD8B1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82674136255E212F00DD8B1B /* AppDelegate.swift */; };
 		82674139255E212F00DD8B1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82674138255E212F00DD8B1B /* SceneDelegate.swift */; };
 		8267413B255E212F00DD8B1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8267413A255E212F00DD8B1B /* ViewController.swift */; };
@@ -52,8 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		82674116255E211200DD8B1B /* BottomSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BottomSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82674119255E211200DD8B1B /* BottomSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomSheet.h; sourceTree = "<group>"; };
+		82674116255E211200DD8B1B /* RBBottomSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RBBottomSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82674119255E211200DD8B1B /* RBBottomSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBBottomSheet.h; sourceTree = "<group>"; };
 		8267411A255E211200DD8B1B /* BottomSheet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BottomSheet-Info.plist"; sourceTree = "<group>"; };
 		8267411F255E211200DD8B1B /* BottomSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottomSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82674124255E211200DD8B1B /* BottomSheetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetTests.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82674120255E211200DD8B1B /* BottomSheet.framework in Frameworks */,
+				82674120255E211200DD8B1B /* RBBottomSheet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +126,7 @@
 		82674117255E211200DD8B1B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82674116255E211200DD8B1B /* BottomSheet.framework */,
+				82674116255E211200DD8B1B /* RBBottomSheet.framework */,
 				8267411F255E211200DD8B1B /* BottomSheetTests.xctest */,
 				82674134255E212F00DD8B1B /* Example.app */,
 				82674149255E213200DD8B1B /* ExampleTests.xctest */,
@@ -137,7 +137,7 @@
 		82674118255E211200DD8B1B /* BottomSheet */ = {
 			isa = PBXGroup;
 			children = (
-				82674119255E211200DD8B1B /* BottomSheet.h */,
+				82674119255E211200DD8B1B /* RBBottomSheet.h */,
 				8267411A255E211200DD8B1B /* BottomSheet-Info.plist */,
 				8267415C255E21CF00DD8B1B /* BottomSheetViewController.swift */,
 				82674168255E35A000DD8B1B /* SheetContentViewController.swift */,
@@ -190,16 +190,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82674127255E211200DD8B1B /* BottomSheet.h in Headers */,
+				82674127255E211200DD8B1B /* RBBottomSheet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		82674115255E211200DD8B1B /* BottomSheet */ = {
+		82674115255E211200DD8B1B /* RBBottomSheet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8267412A255E211200DD8B1B /* Build configuration list for PBXNativeTarget "BottomSheet" */;
+			buildConfigurationList = 8267412A255E211200DD8B1B /* Build configuration list for PBXNativeTarget "RBBottomSheet" */;
 			buildPhases = (
 				82674111255E211200DD8B1B /* Headers */,
 				82674112255E211200DD8B1B /* Sources */,
@@ -210,9 +210,9 @@
 			);
 			dependencies = (
 			);
-			name = BottomSheet;
+			name = RBBottomSheet;
 			productName = BottomSheet;
-			productReference = 82674116255E211200DD8B1B /* BottomSheet.framework */;
+			productReference = 82674116255E211200DD8B1B /* RBBottomSheet.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8267411E255E211200DD8B1B /* BottomSheetTests */ = {
@@ -308,7 +308,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82674115255E211200DD8B1B /* BottomSheet */,
+				82674115255E211200DD8B1B /* RBBottomSheet */,
 				8267411E255E211200DD8B1B /* BottomSheetTests */,
 				82674133255E212F00DD8B1B /* Example */,
 				82674148255E213200DD8B1B /* ExampleTests */,
@@ -397,7 +397,7 @@
 /* Begin PBXTargetDependency section */
 		82674122255E211200DD8B1B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 82674115255E211200DD8B1B /* BottomSheet */;
+			target = 82674115255E211200DD8B1B /* RBBottomSheet */;
 			targetProxy = 82674121255E211200DD8B1B /* PBXContainerItemProxy */;
 		};
 		8267414B255E213200DD8B1B /* PBXTargetDependency */ = {
@@ -407,7 +407,7 @@
 		};
 		82674157255E214600DD8B1B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 82674115255E211200DD8B1B /* BottomSheet */;
+			target = 82674115255E211200DD8B1B /* RBBottomSheet */;
 			targetProxy = 82674156255E214600DD8B1B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -729,7 +729,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8267412A255E211200DD8B1B /* Build configuration list for PBXNativeTarget "BottomSheet" */ = {
+		8267412A255E211200DD8B1B /* Build configuration list for PBXNativeTarget "RBBottomSheet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8267412B255E211200DD8B1B /* Debug */,

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import BottomSheet
+import RBBottomSheet
 
 class ViewController: UIViewController {
 
